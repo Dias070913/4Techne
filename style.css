@@ -1,0 +1,129 @@
+body{
+    background-color: #f1eeee;
+}
+
+.banner{
+    width: 180vh;
+    height: 80vh;
+    margin-top: 4%;
+    margin-left: 10vh;
+}
+.imglogo{
+    width: 15%;
+    height: 15%;
+    margin-left: 2.5%;
+    margin-top: -0.2%;
+}
+.menu{
+    margin-left: 77.5%;
+    margin-top: -5.3%;
+}
+.menu ul li{
+    display: inline;
+    color: white;   
+}
+.menu ul li a{
+    font-size: large;
+    color: #1a1a1a;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: lighter;
+}
+.linha{
+    margin-top: 2.85%;
+}
+.titulo{
+    color: white;
+    margin-left: 4.2%;
+    margin-top: 3%;
+}
+.plan{
+    color: #1a1a1a;
+    text-align: center;
+    font-size: 400%;
+    font-weight: bold;
+    margin-top: 10%;
+}
+.subplan{
+    color: #1a1a1a;
+    text-align: center;
+    font-size: 200%;
+    font-weight: lighter;
+    margin-top: -3.8%;
+}
+.cards{
+    margin-left: 10vh;
+    margin-top: 1%;
+    display: inline-flex;
+    gap: 5%;
+}
+.card{
+    background-color: #5A5FA3;
+    width: 45vh;
+    height: 75vh;
+    position: relative;
+    gap: 2%;
+    border-top-left-radius: 10px;
+    
+}
+.card-top{
+    background-color: #1a1a1a;
+    width: 38.2vh;
+    height: 80px;
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 12px;
+}
+.text1{
+    color: white;
+    font-size: 250%;
+    font-weight: bold;
+    margin-left: 50%;
+    margin-top: -20%;
+}
+.text2{
+    color: white;
+    font-size: 250%;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-top: -20%;
+}
+.web{
+    color: white;
+    width: 10.5vh;
+    height: 9vh;
+    font-weight: lighter;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+}
+.mobile{
+    color: white;
+    width: 10.5vh;
+    height: 9vh;
+    font-weight: lighter;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+}
+.sobretxt{
+    color:#1a1a1a;
+    font-size: 160%;
+    font-weight: lighter;
+    margin-left: 35vh;
+    margin-top: -36.5%;
+    width: 60vh;
+}
+.sobreimg{
+    width: 70vh;
+    height: 60vh;
+    margin-left: 100vh;
+    margin-top: 2.5vh;
+    margin-bottom: 15vh;
+}
+.sobre{
+    color: #1a1a1a;
+    text-align: center;
+    font-size: 400%;
+    font-weight: bold;
+    margin-top: -2%;
+}
+
