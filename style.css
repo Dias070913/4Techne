@@ -42,7 +42,7 @@ body{
     text-align: center;
     font-size: 400%;
     font-weight: bold;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .subplan{
     color: #1a1a1a;
@@ -52,7 +52,7 @@ body{
     margin-top: -3.8%;
 }
 .cards{
-    margin-left: 10vh;
+    margin-left: 7vh;
     margin-top: 1%;
     display: inline-flex;
     gap: 5%;
@@ -109,12 +109,12 @@ body{
     font-size: 160%;
     font-weight: lighter;
     margin-left: 35vh;
-    margin-top: -36.5%;
+    margin-top: -40.5%;
     width: 60vh;
 }
 .sobreimg{
-    width: 70vh;
-    height: 60vh;
+    width: 65vh;
+    height: 70vh;
     margin-left: 100vh;
     margin-top: 2.5vh;
     margin-bottom: 15vh;
@@ -125,5 +125,18 @@ body{
     font-size: 400%;
     font-weight: bold;
     margin-top: -2%;
+}
+.trabs{
+    color: #1a1a1a;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 250%;
+    margin-top: -2%;
+}
+.trab{
+    color: #1a1a1a;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 20%;
 }
 
