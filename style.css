@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@200;300;400;500;600;700&display=swap');
+
 body{
     background-color: #f1eeee;
 }
@@ -23,7 +25,8 @@ body{
     color: white;   
 }
 .menu ul li a{
-    font-size: large;
+    font-family: "Lexend Exa";
+    font-size: medium;
     color: #1a1a1a;
     text-decoration: none;
     padding: 10px;
@@ -42,7 +45,7 @@ body{
     text-align: center;
     font-size: 400%;
     font-weight: bold;
-    margin-top: 15%;
+    margin-top: 7%;
 }
 .subplan{
     color: #1a1a1a;
@@ -52,7 +55,7 @@ body{
     margin-top: -3.8%;
 }
 .cards{
-    margin-left: 7vh;
+    margin-left: 10vh;
     margin-top: 1%;
     display: inline-flex;
     gap: 5%;
@@ -75,18 +78,28 @@ body{
     border-bottom-right-radius: 12px;
 }
 .text1{
+    font-family: "Lexend Exa";
     color: white;
-    font-size: 250%;
+    font-size: 200%;
     font-weight: bold;
-    margin-left: 50%;
-    margin-top: -20%;
+    margin-left: 31%;
+    margin-top: 5%;
 }
 .text2{
+    font-family:"Lexend Exa";
     color: white;
-    font-size: 250%;
+    font-size: 200%;
     font-weight: bold;
-    margin-left: 30%;
-    margin-top: -20%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.textW{
+    font-family:"Lexend Exa";
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 35%;
+    margin-top: 5%;
 }
 .web{
     color: white;
@@ -109,12 +122,12 @@ body{
     font-size: 160%;
     font-weight: lighter;
     margin-left: 35vh;
-    margin-top: -40.5%;
+    margin-top: -36.5%;
     width: 60vh;
 }
 .sobreimg{
-    width: 65vh;
-    height: 70vh;
+    width: 70vh;
+    height: 60vh;
     margin-left: 100vh;
     margin-top: 2.5vh;
     margin-bottom: 15vh;
@@ -126,17 +139,17 @@ body{
     font-weight: bold;
     margin-top: -2%;
 }
-.trabs{
+.Trab{
     color: #1a1a1a;
     text-align: center;
-    font-weight: lighter;
-    font-size: 250%;
-    margin-top: -2%;
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: 5%;
 }
-.trab{
+.projetos{
     color: #1a1a1a;
     text-align: center;
+    font-size: 55%;
     font-weight: lighter;
-    margin-top: 20%;
+    margin-top: -8.5%;
 }
-
