@@ -45,7 +45,7 @@ body{
     text-align: center;
     font-size: 400%;
     font-weight: bold;
-    margin-top: 7%;
+    margin-top: 12%;
 }
 .subplan{
     color: #1a1a1a;
@@ -121,14 +121,14 @@ body{
     color:#1a1a1a;
     font-size: 160%;
     font-weight: lighter;
-    margin-left: 35vh;
+    margin-left: 42vh;
     margin-top: -36.5%;
     width: 60vh;
 }
 .sobreimg{
-    width: 70vh;
+    width: 50vh;
     height: 60vh;
-    margin-left: 100vh;
+    margin-left: 108vh;
     margin-top: 2.5vh;
     margin-bottom: 15vh;
 }
@@ -152,4 +152,33 @@ body{
     font-size: 55%;
     font-weight: lighter;
     margin-top: -8.5%;
+}
+.trabreal{
+    position: absolute;
+     color: #1a1a1a;
+    text-align: center;
+    font-size: 400%;
+    font-weight: bold;
+    margin-top: -2%;
+    margin-left: 35.5vh;
+}
+.timg{
+    width: 110vh;
+    height: 50vh;
+    margin-left: 10vh;
+    margin-top: 8vh;
+    margin-bottom: 15vh;
+}
+.rarr{
+    width: 8vh;
+    height: 8vh;
+    margin-left: 2.5vh;
+    margin-bottom: 35.5vh;
+}
+.larr{
+    position: absolute;
+    width: 8vh;
+    height: 8vh;
+    margin-left: -2.5vh;
+    margin-top: 28vh;
 }
