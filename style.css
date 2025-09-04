@@ -45,7 +45,7 @@ body{
     text-align: center;
     font-size: 400%;
     font-weight: bold;
-    margin-top: 12%;
+    margin-top: 20%;
 }
 .subplan{
     color: #1a1a1a;
@@ -159,15 +159,16 @@ body{
     text-align: center;
     font-size: 400%;
     font-weight: bold;
-    margin-top: -2%;
+    margin-top: 5%;
     margin-left: 35.5vh;
 }
 .timg{
     width: 110vh;
     height: 50vh;
     margin-left: 10vh;
-    margin-top: 8vh;
+    margin-top: 5vh;
     margin-bottom: 15vh;
+    border: 2px;
 }
 .rarr{
     width: 8vh;
@@ -181,4 +182,7 @@ body{
     height: 8vh;
     margin-left: -2.5vh;
     margin-top: 28vh;
+}
+.footer{
+    margin-bottom: 0%;
 }
