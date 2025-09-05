@@ -154,13 +154,12 @@ body{
     margin-top: -8.5%;
 }
 .trabreal{
-    position: absolute;
      color: #1a1a1a;
     text-align: center;
     font-size: 400%;
     font-weight: bold;
     margin-top: 5%;
-    margin-left: 35.5vh;
+    margin-left: 10vh;
 }
 .timg{
     width: 110vh;
