@@ -45,7 +45,7 @@ body{
     text-align: center;
     font-size: 400%;
     font-weight: bold;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .subplan{
     color: #1a1a1a;
@@ -137,14 +137,14 @@ body{
     text-align: center;
     font-size: 400%;
     font-weight: bold;
-    margin-top: -2%;
+    margin-top: 10%;
 }
 .Trab{
     color: #1a1a1a;
     text-align: center;
     font-size: 100%;
     font-weight: bold;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 .projetos{
     color: #1a1a1a;
@@ -184,4 +184,20 @@ body{
 }
 .footer{
     margin-bottom: 0%;
+}
+.redes{
+    margin-top: 1%;
+    margin-right: 0.3%;
+    width: 3%;
+    margin-left: 0.5%;
+}
+.foo{
+    font-family: "Lexend Exa";
+    font-size: large;
+    color: #1a1a1a;
+    text-decoration: none;
+    margin-left: -1%;
+    padding-top: 4px;
+    font-weight: lighter;
+    margin-left: 0.5%;
 }
