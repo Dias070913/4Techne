@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="script.js" defer></script>
-    <title  >4Techne</title>
+    <title>4Techne</title>
 </head>
 <body>
     <div class="topo">
@@ -81,10 +81,15 @@
         <div class="trabreal">
             <h1 class="Trab">Trabalhos realizados</h1> <br>
             <h2 class="projetos">Conheça nossos principais projetos</h2>
-            
-            <img class="larr" src="img/leftarrow.png">
-                <img class="timg" src="img/trabimg1.png">
-                <img class="rarr" src="img/rightarrow.png">
+        </div>
+        <div class="trabalhos">
+            <button class ="prev" onclick="mudarImagem(-1)">&#10094;</button>
+            <div class = "trabalhos-slide">
+                <img class="trabimg" src="img/trabimg1.png" alt="Imagem 1">
+                <img class="trabimg" src="img/trabimg1.png" alt="Imagem 2">
+                <img class="trabimg" src="img/trabimg1.png" alt="Imagem 3">
+            </div>
+            <button class ="next" onclick="mudarImagem(1)">&#10095;</button>
         </div>   
     </section>
     <hr>
