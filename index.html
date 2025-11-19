@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="script.js" defer></script>
-    <title  >4Techne</title>
+    <title>4Techne</title>
 </head>
 <body>
     <div class="topo">
@@ -19,15 +19,16 @@
             <ul>
                 <li><a  class="It" href="#plan">Planos</a></li>
                 <li><a class="It" href="#sobre">Sobre nós</a></li>
-                <li><a class="It" href="">Contatos</a></li>
+                <li><a class="It" href="#footer">Contatos</a></li>
             </ul>
         </section>
     </div>
-    
-    <img class="banner" src="img/banner.png" alt="">
+    <div class="ImgApres">
+        <img class="banner" src="img/banner.png" alt="">
+    </div>
     <section class="conteudo">
         <div class="titulo">
-            <h1 id="sobre" class="sobre">Sobre nós</h1>
+            <h1 id="sobre">Sobre nós</h1>
            <h3 class="subplan">Conheça nossa empresa</h3>
         </div>
         <div class="desc">
@@ -52,42 +53,58 @@
                     <!--<img class="web" src="img/web.png" alt="" title="Sistemas Web">-->
                     <h2 class="textW">Web</h2>
                 </div>
-                <p></p>
+                <div class="card-text">
+                <p class="txtCard">Desenvolvimento de sites para comércios diferentes, incluindo mas não limitado a: serviços de streaming; lojas virtuais de roupas, brinquedos, materiais, entre outros.</p>
+                </div>
             </div>
             <div class="card">
                 <div class="card-top">
                     <!--<img class="web" src="img/android.png" alt="mobile">-->
                     <h2 class="text1">Mobile</h2>
                 </div>
-                <p></p>
+                <div class="card-text">
+                <p class="txtCard">Desenvolvimento de aplicações mobile para todos os tipos de dispositivos móveis como celulares, tablets, Ipads, entre outros.</p>
+                </div>
             </div>
             <div class="card">
                 <div class="card-top">
                     <!--<img class="web" src="img/banco.png" alt="banco">-->
                     <h2 class="text1">Banco</h2>
                 </div>
-                <p></p>
+                <div class="card-text">
+                <p class="txtCard">Desenvolvimento de bancos de dados para vários tipos de sistemas, como: estoques, sites na web, aplicativos móveis, sistemas de mercado, armazenamento de dados, entre outros.</p>
+                </div>
             </div>
             <div class="card">
                 <div class="card-top">
                     <!--<img class="web" src="img/auto.png" alt="automacao">-->
                     <h2 class="text2">Automação</h2>
                 </div>
-                <p></p>
+                <div class="card-text">
+                <p class="txtCard">Automatização de processos, como: envios de emails, gerenciamento de arquivos, geração de relatórios, agendamentos de diversos tipos, como coleta e entrega e monitoramento de insumos.</p>
+                </div>
             </div>
         </div>
         </div>
         <div class="trabreal">
             <h1 class="Trab">Trabalhos realizados</h1> <br>
             <h2 class="projetos">Conheça nossos principais projetos</h2>
-            
-            <img class="larr" src="img/leftarrow.png">
-                <img class="timg" src="img/trabimg1.png">
-                <img class="rarr" src="img/rightarrow.png">
-        </div>   
+        </div>
+        <section class="trabalho-slide">
+            <img src = "img/setaesquerda.png" class="prev" onclick="mudarImagem(-1)"&#10094;>
+            <p class="txtSlide">Aqui estão projetos desenvolvidos por nossa empresa para diversos clientes diferentes, incluindo mas não limitados a: serviços de streaming, lojas virtuais, aplicativos mobile, entre outros.</p>
+            <div class="trabalhos">
+                <div class = "trabalhos-slide">
+                    <img class="trabimg" src="img/imgprojeto1.jpeg" alt="Imagem 1">
+                    <img class="trabimg" src="img/imgprojeto2.jpeg" alt="Imagem 2">
+                    <img class="trabimg" src="img/imgprojeto3.png" alt="Imagem 3">
+                </div>
+            </div>
+            <img src = "img/setadireita.png" class="next" onclick="mudarImagem(1)"&#10095;>
+        </section>   
     </section>
     <hr>
-        <footer>
+        <footer id="footer">
             <img class="redes" src="img/email.png" alt="">
             <img class="redes" src="img/Insta.png" alt="">
             <img class="redes" src="img/Linkedin.png" alt="">
