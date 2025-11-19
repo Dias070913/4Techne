@@ -2,38 +2,53 @@
 
 body{
     background-color: #f1eeee;
+
 }
 .ImgApres{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 45vh;
     width: 100%;
-    margin-top: 5%;
+    margin-top: 10%;
+}
+.logo{
+    position: relative;
+    width: 9%;
+    height: 100%;
+    left: 2.5%;
+    top: 0.5%;
 }
 .banner{
+    position: relative;
     width: 180vh;
     height: 80vh;
-    margin-top: 7%;
-    margin-left: 10vh;
+    top: 10%;
+   
 }
 .topo{
-    height: 80px;
+    height: 8vh;
     width: 100%;
-    box-shadow: 0px 5px 15px #00000000;
-    border-radius: 10px;
+    background-color: #cecece;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 .imglogo{
-    width: 15%;
-    height: 15%;
-    margin-left: 2.5%;
-    margin-top: 0.5%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 2.5%;
+    top: 0.5%;
 }
 .menu{
-    margin-left: 77.5%;
-    margin-top: -5.3%;
+    position: relative;
+    left: 15.5%;
+    bottom: 7vh;
 }
 .menu ul li{
+    position: relative;
     display: inline;
     color: white;   
 }
@@ -44,6 +59,11 @@ body{
     text-decoration: none;
     padding: 1.5%;
     font-weight: lighter;
+}
+.menu ul li a:hover{
+    color: #5A5FA3;
+    transition: 0.3s;
+    font-weight: bold;
 }
 .linha{
     margin-top: 2.85%;
